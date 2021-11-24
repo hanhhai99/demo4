@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <div style="border: 1px solid red; width: 800px; height: 900px;">
+        <h2 style="text-align: center;">Các phần tử trong FORM</h2>
+        <div>
+            <form action="">
+                <fieldset>
+                    <legend>Form đầu tiên</legend>
+                    <table>
+                        <tr height= 30px>
+                            <td width=50px><b> Usename:</b></td>
+                            <td width=50px>
+                                <form action="">
+                                    <input type="text" placeholder="Hãy nhập usename">
+                                </form>
+                            </td>
+                        </tr>
+                        <tr height= 30px>
+                            <td width=50px><b>Password:</b> </td>
+                            <td width=50px>
+                                <input type="password">
+                            </td>
+                        </tr>
+                        <tr height= 100px>
+                            <td width=50px><b>Ghi chú:</b></td>
+                            <td width=50px>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <fieldset>
+                    <legend>Form 2</legend>
+                    <p style="text-align: center;">Lựa chọn</p>
+                    1. <b>Lựa chọn 1 lựa chọn: type = "radio"</b><br>
+                    <b>Giới tính</b> <br>
+                    Nam <input type="radio"> Nữ <input type="radio"><br>
+                    2. <b>CHo phép chọn nhiều lựa chọn: type = "checbox"</b>
+                    <b>Ngôn ngữ lập trinh thành thạo</b>
+                    <table>
+                        <tr height=20>
+                            <td width=40>C</td>
+                            <td width=40><input type="checkbox"></td>
+                        </tr>
+                        <tr height=20>
+                            <td width=40>C#</td>
+                            <td width=40><input type="checkbox"></td>
+                        </tr>
+                        <tr height=20>
+                            <td width=40>C++</td>
+                            <td width=40><input type="checkbox"></td>
+                        </tr>
+                        <tr height=20>
+                            <td width=40>Java</td>
+                            <td width=40><input type="checkbox"></td>
+                        </tr>
+                        <tr height=20>
+                            <td width=40>JavaScript</td>
+                            <td width=40><input type="checkbox"></td>
+                        </tr>
+                        <tr height=20>
+                            <td width=40>Python</td>
+                            <td width=40><input type="checkbox"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <fieldset>
+                    <legend>Tạo danh sách</legend>
+                    <b>Sử dụng thẻ <u>Select</u> kết hợp với thẻ <u>Option</u></b><br>
+                    <b>Quốc tịch</b>
+                    <select name="" id="">
+                        <option value="">Việt Nam</option>
+                        <option value="">Hàn Quốc</option>
+                        <option value="">Nhật Bản</option>
+                        <option value="">Mỹ</option>
+                        <option value="">Trung</option>
+                        <option value="">Nga</option>
+                    </select><br>
+                    <b>Quốc tịch</b>
+                    <select name="" id="" size="3">
+                        <option value="">Việt Nam</option>
+                        <option value="">Hàn Quốc</option>
+                        <option value="">Nhật Bản</option>
+                        <option value="">Mỹ</option>
+                        <option value="">Trung</option>
+                        <option value="">Nga</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form action="">
+                <fieldset>
+                    <legend>Nút xác nhận</legend>
+                    <b>Sử udngj thẻ InputL type="Submit" và gán giá trị cho thuộc tính value</b><br>
+                    <button type="submit">Đăng ký</button><br>
+                    <b>Sử dụng thẻ button với type="submit"</b><br>
+                    <button>Đăng ký</button>
+                    <button>Nhâp lại</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
